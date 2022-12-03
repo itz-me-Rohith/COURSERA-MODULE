@@ -13,6 +13,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
 var dc = {};
 
+<<<<<<< HEAD
 var homeHtmlUrl = "snippets/home-snippet.html";
 var allCategoriesUrl =
   "https://coursera-jhu-default-rtdb.firebaseio.com/categories.json";
@@ -22,6 +23,17 @@ var menuItemsUrl =
   "https://coursera-jhu-default-rtdb.firebaseio.com/menu_items/";
 var menuItemsTitleHtml = "snippets/menu-items-title.html";
 var menuItemHtml = "snippets/menu-item.html";
+=======
+    var homeHtmlUrl = "snippets/home-snippet.html";
+    var allCategoriesUrl =
+        "https://coursera-jhu-default-rtdb.firebaseio.com/categories.json";
+    var categoriesTitleHtml = "snippets/categories-title-snippet.html";
+    var categoryHtml = "snippets/category-snippet.html";
+    var menuItemsUrl =
+        "https://coursera-jhu-default-rtdb.firebaseio.com/menu_items/";
+    var menuItemsTitleHtml = "snippets/menu-items-title.html";
+    var menuItemHtml = "snippets/menu-item.html";
+>>>>>>> 231155151345183eea9bcc36496ad5b9c5a12910
 
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
